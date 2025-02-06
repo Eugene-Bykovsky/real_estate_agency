@@ -58,7 +58,6 @@ class Flat(models.Model):
         User,
         verbose_name='Кто лайкнул',
         blank=True,
-        null=True,
         related_name="liked_flats"
     )
 
